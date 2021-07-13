@@ -1,0 +1,25 @@
+#This file is used to store keys in the format:
+
+#[DATABASE_CONF]
+#username:{username}
+#password:{password}
+
+#[API]
+#alpaca_public_key:{key}
+#alpaca_secret_key:{key}
+#alphavantage_key:{key}
+
+config.properties
+
+#This prevents environment packages from being tracked
+venv/
+
+#This prevents tracking bytecode
+__pycache__/
+
+#General pycharm idea ignores
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
